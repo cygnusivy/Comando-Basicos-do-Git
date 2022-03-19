@@ -1,12 +1,20 @@
 # **Comandos básicos com  Git**
 
+### Primeiros passos para utilizar o Git na sua máquina:
+#### 1. Baixe o Git clicando [neste link](https://git-scm.com/) e execute-o na sua máquina
+#### 2. Abra o Git Bash e defina um nome de usuário e email utilizando os seguintes exemplo:
+```
+git config --global user.name "Maria Silva"
+git config --global user.email "maria.silva@email.com"
+```
+
 ## **ÍNDICE**
 ### **1. Navegando entre pastas e diretórios**
 1.1 Comandos `ls` e `dir`
 
 1.2 Comandos `cd` e `cd ..`
 
-1.3 Comandos `mkdir`, `mv`, `rmdir`, `rm`, `touch` e `clear`
+1.3 Comandos `mkdir`, `mv`, `rmdir`, `rm` e `clear`
 ### **2. Clonando repositórios e realizando commits**
 2.1 Comandos `git clone`, `git status`, `git init`, `git add`, `git  commit`
 ### **3. Criando repositório remoto**
@@ -55,5 +63,5 @@ rmdir DiretórioASerDeletado
 
 #### `clear` é o comando utilizado para limpar o terminal, muito útil para aqueles que gostam de utilizar o terminal sempre limpo ou com pouco código. Basta rodar o comando `clear` no terminal que tudo que foi realizado anteriormente a este comando será retirado do terminal.
 
-
-
+## **2. Clonando repositórios e realizando commits**
+### **Comandos** `git init`, `git clone`, `git status`, `git add`, `git  commit
