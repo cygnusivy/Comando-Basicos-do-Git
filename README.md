@@ -65,3 +65,13 @@ rmdir DiretórioASerDeletado
 
 ## **2. Clonando repositórios e realizando commits**
 ### **Comandos** `git init`, `git clone`, `git status`, `git add`, `git  commit
+
+#### O comando `git init` é utilizado para inicilizar um repositório do Git, podendo ser utilizado para converter um repositório existente e não versionado em um repositório d Git ou inicializar um repositório vazio. A utilização deste comando é primordial e deve ser aplicada como primeiro comando ao iniciar um novo projeto, pois a maioria dos outros comandos do git ficam indisponíveis fora de um repositório inicializado. Ao executar o comando `git init`, um subdiretório .git no diretório de trabalho atual é criado, este diretório contém todos os metadados Git necessários para o novo repositório. Para executar o comando `git init` basta entrar no subdiretório do pprojeto e executar `git init`. 
+
+#### `git clone` também pode ser aplicado para inicializar um repositório. Porém o `git clone` é um comando dependente do `git init`, sendo utilizado para criar uma cópia de um repositório existente no repositório de destino. Ao rodar o `git clone` no terminal de comando do Git, o comando `git init` será chamado primeiramente, criando assim um novo repositório. Em seguida, copia os dados do repositório existente e faz checkout de um novo conjunto de arquivos de trabalho. A padrão utilizado para clonar um repositório é mostrado abaixo:
+```
+git clone 'https://github.com/cygnusivy/Comando-Basicos-do-Git.git'
+```
+#### O exemplo acima demonstra como obter uma cópia local do repositório central armazenado no servidor acessível em https://github.com/cygnusivy/Comando-Basicos-do-Git.git 
+
+#### Em seguida, o comando `git status` pode ser utilizado para ver se houve alguma alteração no código ou se houve alguma mudança qualquer nas pastas e arquivos do repositório local. Basta executar o comando `git status` dentro do diretório atual que que um resumo das alterações será exibido no terminal. As flags `-s` e `-v` podem ser aplicadas ao `git status` para que as alterações possam ser visualizadas de outra forma. O comando `git status -s` retorna as alterações em formato mais curto, ao passo que `git status -v` retorna as alterações de forma mais detalhada, inclusive as alterções dentro do código. Para mais finformações sobre `git status` [Clique aqui](https://git-scm.com/docs/git-status)
