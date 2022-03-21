@@ -64,7 +64,7 @@ rmdir DiretórioASerDeletado
 #### `clear` é o comando utilizado para limpar o terminal, muito útil para aqueles que gostam de utilizar o terminal sempre limpo ou com pouco código. Basta rodar o comando `clear` no terminal que tudo que foi realizado anteriormente a este comando será retirado do terminal.
 
 ## **2. Clonando repositórios e realizando commits**
-### **Comandos** `git init`, `git clone`, `git status`, `git add`, `git  commit
+### **Comandos** `git init`, `git clone`, `git status`, `git add`, `git  commit`
 
 #### O comando `git init` é utilizado para inicilizar um repositório do Git, podendo ser utilizado para converter um repositório existente e não versionado em um repositório d Git ou inicializar um repositório vazio. A utilização deste comando é primordial e deve ser aplicada como primeiro comando ao iniciar um novo projeto, pois a maioria dos outros comandos do git ficam indisponíveis fora de um repositório inicializado. Ao executar o comando `git init`, um subdiretório .git no diretório de trabalho atual é criado, este diretório contém todos os metadados Git necessários para o novo repositório. Para executar o comando `git init` basta entrar no subdiretório do pprojeto e executar `git init`. 
 
